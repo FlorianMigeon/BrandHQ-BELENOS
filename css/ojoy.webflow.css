@@ -151,7 +151,7 @@ a {
 
 .section.treasure-hunt {
   color: #fff;
-  background-image: linear-gradient(rgba(201, 183, 153, .64), rgba(201, 183, 153, .64)), url('../images/fond-matiere-belenos.png');
+  background-image: linear-gradient(rgba(201, 183, 153, .75), rgba(201, 183, 153, .75)), url('../images/fond-matiere-belenos.png');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -340,7 +340,7 @@ a {
 
 .hero-heading.hidden {
   color: #022235;
-  letter-spacing: 1vh;
+  letter-spacing: 4px;
   text-indent: 0;
   font-family: Lemonmilk, sans-serif;
   font-size: 3.2vw;
@@ -1009,7 +1009,7 @@ a {
 
 .bg-image {
   opacity: 1;
-  width: 40%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -2447,7 +2447,7 @@ a {
   position: absolute;
 }
 
-.ojoy-pack-image-2 {
+.belenos-image-2 {
   z-index: 1;
   width: 100%;
   max-width: 1200px;
@@ -2785,12 +2785,12 @@ a {
   color: #052235;
   letter-spacing: 5px;
   font-family: Lemonmilk, sans-serif;
-  font-size: 5vw;
+  font-size: 2vw;
   font-weight: 800;
   line-height: 1.5em;
   position: absolute;
   bottom: 15%;
-  right: 0;
+  right: 17px;
 }
 
 .paragraph-2-belenos {
@@ -3365,6 +3365,7 @@ a {
   .container {
     padding-top: 20px;
     padding-bottom: 50px;
+    display: block;
   }
 
   .container.less-top {
@@ -3388,18 +3389,22 @@ a {
     display: block;
   }
 
+  .container.mega-padded-copy {
+    max-width: 100%;
+  }
+
   .container.footer {
     padding-top: 35px;
     padding-bottom: 35px;
   }
 
   .hero-section {
-    background-image: url('../images/pexels-nathan-cowley-1151282.jpg');
+    background-image: url('../images/bkg_hero_belenos.jpg');
     background-position: 50% 0;
     background-size: cover;
     align-items: flex-start;
-    height: 100vh;
-    min-height: 100vh;
+    height: 70vh;
+    min-height: 70vh;
     overflow: hidden;
   }
 
@@ -3450,12 +3455,14 @@ a {
 
   .number.centered {
     margin-top: -50px;
+    font-size: 50px;
     position: static;
   }
 
   .image-3 {
     z-index: 1;
     text-align: left;
+    width: 60px;
     margin-top: -25px;
     margin-left: 60px;
     padding-left: 0;
@@ -3491,8 +3498,12 @@ a {
     line-height: 1.3em;
   }
 
-  .heading.happening, .heading.happening-belenos {
+  .heading.happening {
     font-size: 11vw;
+  }
+
+  .heading.happening-belenos {
+    font-size: 7vw;
   }
 
   .image-4 {
@@ -3504,7 +3515,9 @@ a {
   }
 
   .hero-heading.hidden {
-    display: none;
+    text-align: center;
+    font-size: 6vw;
+    display: block;
   }
 
   .text-block {
@@ -3560,7 +3573,7 @@ a {
   }
 
   .epic-image {
-    display: none;
+    display: block;
   }
 
   .heading-2 {
@@ -3590,6 +3603,10 @@ a {
   .right-side-link.hero-link.v2 {
     bottom: 0;
     right: 0;
+  }
+
+  .tabs-parent {
+    margin-top: 193px;
   }
 
   .tabs {
@@ -3652,6 +3669,8 @@ a {
   .bg-image {
     object-fit: fill;
     width: 100%;
+    padding-bottom: 200px;
+    bottom: 732px;
   }
 
   .bg-image.v2 {
@@ -3726,6 +3745,7 @@ a {
 
   .heading-3 {
     text-align: center;
+    background-size: contain;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -3837,7 +3857,7 @@ a {
   .text-block-17 {
     white-space: normal;
     padding-top: 0;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .image-14 {
@@ -4016,17 +4036,20 @@ a {
     bottom: auto;
   }
 
-  .ojoy-pack-image-2 {
+  .belenos-image-2 {
     object-fit: fill;
-    width: 180vw;
-    margin-bottom: -33vh;
-    margin-left: -45vw;
+    width: auto;
+    height: 52vh;
     display: block;
-    top: -138px;
+    position: absolute;
+    top: 18vh;
+    bottom: auto;
   }
 
   .hero-heading-belenos.hidden {
-    display: none;
+    text-align: center;
+    font-size: 8vw;
+    display: block;
   }
 
   .heading-6-belenos {
@@ -4135,11 +4158,18 @@ a {
     right: 0%;
   }
 
+  .text-span-2-belenos {
+    font-size: 6vw;
+  }
+
   .paragraph-3-belenos {
     text-align: left;
   }
 
   .yeww-belenos {
+    padding-left: 16px;
+    font-size: 10vw;
+    top: 959.141px;
     bottom: 0%;
   }
 
