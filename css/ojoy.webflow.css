@@ -273,8 +273,10 @@ a {
 
 .paragraph {
   color: #fff;
+  width: 85%;
   margin-bottom: 42px;
   font-family: Roboto Condensed, sans-serif;
+  font-size: 25px;
 }
 
 .heading {
@@ -1009,7 +1011,7 @@ a {
 
 .bg-image {
   opacity: 1;
-  width: 35%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -1028,7 +1030,8 @@ a {
   background-color: #c9b799;
   background-clip: border-box;
   width: 100%;
-  max-height: 100%;
+  height: 1500px;
+  max-height: 1500px;
   position: absolute;
   top: 0;
   bottom: auto;
@@ -1440,6 +1443,7 @@ a {
 .bold-text {
   color: #fff;
   font-family: Roboto Condensed, sans-serif;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -1506,6 +1510,10 @@ a {
   border-radius: 0;
 }
 
+.image-10.bottle {
+  height: 500px;
+}
+
 .text-span-4 {
   letter-spacing: 1px;
   font-family: Lemonmilk, sans-serif;
@@ -1536,9 +1544,9 @@ a {
 .image-12 {
   float: right;
   text-align: left;
-  width: 150px;
+  border: 1px solid #fff;
+  width: 500px;
   margin-right: 58px;
-  padding-top: 87px;
   padding-right: 0;
 }
 
@@ -1570,8 +1578,10 @@ a {
 
 .heading-8 {
   font-family: Lemonmilk, sans-serif;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
+  line-height: 2em;
 }
 
 .div-block16 {
@@ -1596,6 +1606,10 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 1em;
+}
+
+.bottle {
+  height: 500px;
 }
 
 .text-span-10 {
@@ -2463,7 +2477,7 @@ a {
 
 .hero-heading-belenos.hidden {
   color: #022235;
-  letter-spacing: 1vh;
+  letter-spacing: 5px;
   text-indent: 0;
   font-family: Lemonmilk, sans-serif;
   font-size: 2.8vw;
@@ -2592,7 +2606,7 @@ a {
   font-family: Lemonmilk, sans-serif;
   font-size: 37px;
   font-weight: 600;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .text-block-belenos {
@@ -2769,12 +2783,13 @@ a {
 
 .text-span-2-belenos {
   color: #022235;
-  font-size: 2vw;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .paragraph-3-belenos {
   color: #052235;
+  text-transform: uppercase;
   margin-bottom: 10px;
   font-family: Roboto Condensed, sans-serif;
 }
@@ -2789,7 +2804,7 @@ a {
   font-weight: 800;
   line-height: 1.5em;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   right: 17px;
 }
 
@@ -2923,6 +2938,11 @@ a {
   color: var(--white);
   font-size: 120px;
   line-height: 1.3em;
+}
+
+.text-span-25 {
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
@@ -3159,8 +3179,19 @@ a {
     padding-left: 10px;
   }
 
+  .heading.happening-belenos {
+    font-size: 24px;
+  }
+
   .div-block {
     display: flex;
+  }
+
+  .image-4 {
+    top: 0%;
+    bottom: auto;
+    left: -67%;
+    right: auto;
   }
 
   .image-5 {
@@ -3352,8 +3383,10 @@ a {
   }
 
   .yeww-belenos {
-    font-size: 21vw;
-    bottom: -1%;
+    font-size: 6vw;
+    bottom: 5%;
+    left: 47px;
+    right: 289px;
   }
 }
 
@@ -3381,6 +3414,7 @@ a {
   }
 
   .container.less-padding {
+    max-width: 2400px;
     margin-top: 0;
   }
 
@@ -3457,6 +3491,10 @@ a {
     margin-top: -50px;
     font-size: 50px;
     position: static;
+  }
+
+  .link.overflow-hidden {
+    display: block;
   }
 
   .image-3 {
@@ -3845,6 +3883,7 @@ a {
   }
 
   .heading-8 {
+    text-align: center;
     column-count: auto;
     line-height: 1.3em;
   }
@@ -3896,6 +3935,10 @@ a {
 
   .text-span-19, .text-span-20, .text-span-21 {
     font-size: 16px;
+  }
+
+  .link-3.overflow-hidden-2 {
+    display: block;
   }
 
   .activity-icon-2 {
@@ -4169,7 +4212,8 @@ a {
   .yeww-belenos {
     padding-left: 16px;
     font-size: 10vw;
-    top: 959.141px;
+    display: none;
+    top: 1022.14px;
     bottom: 0%;
   }
 
